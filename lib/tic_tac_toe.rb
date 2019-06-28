@@ -128,7 +128,7 @@ turn(board)
 if over?(board) == true
 break
 if draw?(board) == true
-  prints "Cat's Game!"
+  puts "Cat's Game!"
   break
 end
 end
