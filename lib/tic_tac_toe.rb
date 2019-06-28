@@ -127,6 +127,10 @@ def play(board)
 turn(board)
 if over?(board) == true
 break
+if draw?(board) == true
+  prints "Cat's Game!"
+  break
+end
 end
 end
 if won?(board) == true
@@ -134,7 +138,5 @@ if won?(board) == true
   puts "Congratulations #{player}!"
   display_board(board)
 end
-if draw?(board) == true
-  prints "Cat's Game!"
-end
+
 end
