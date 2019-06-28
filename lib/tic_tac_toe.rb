@@ -123,7 +123,7 @@ def winner(board)
 end
 
 def play(board)
-  until over?(board) == false
+  until over?(board) == true
 turn(board)
 if over?(board) == true
 break
