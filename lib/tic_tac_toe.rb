@@ -128,7 +128,8 @@ turn(board)
 if over?(board) == true
 break
 end
-  && won?(board) == true
+end
+if won?(board) == true
   player = winner(board)
   puts "Congratulations #{player}!"
   display_board(board)
