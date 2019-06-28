@@ -123,8 +123,12 @@ def winner(board)
 end
 
 def play(board)
+  until over?(board) == false
 turn(board)
-if over?(board) == true && won?(board) == true
+if over?(board) == true
+break
+end
+  && won?(board) == true
   player = winner(board)
   puts "Congratulations #{player}!"
   display_board(board)
