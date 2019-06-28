@@ -125,11 +125,8 @@ end
 def play(board)
   until over?(board) == true
 turn(board)
-if over?(board) == true
-  if draw?(board) == true
-    print "Cat's Game!"
-  end
-break
+if draw?(board) == true
+  puts "Cat's Game!"
 end
 end
 end
