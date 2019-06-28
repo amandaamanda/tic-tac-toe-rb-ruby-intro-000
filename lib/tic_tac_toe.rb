@@ -133,4 +133,3 @@ if draw?(board) == true
   prints "Cat's Game!"
 end
 end
-end
