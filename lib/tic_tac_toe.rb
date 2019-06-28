@@ -52,7 +52,7 @@ if valid_move?(board, position) == true
 puts "invalid move"
 end
 end
-end
+
 
 
 def turn_count(board)
