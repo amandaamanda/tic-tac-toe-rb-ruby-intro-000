@@ -124,8 +124,7 @@ end
 
 def play(board)
 turn(board)
-if over?(board) == true
-if won?(board) == true
+if over?(board) == true && won?(board) == true
   player = winner(board)
   puts "Congratulations #{player}!"
   display_board(board)
