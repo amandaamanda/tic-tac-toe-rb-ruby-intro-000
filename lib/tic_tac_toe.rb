@@ -138,5 +138,4 @@ if won?(board) == true
   puts "Congratulations #{player}!"
   display_board(board)
 end
-
 end
