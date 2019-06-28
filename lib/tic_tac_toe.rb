@@ -133,7 +133,8 @@ if won?(board) == true
   player = winner(board)
   puts "Congratulations #{player}!"
   display_board(board)
-elsif draw?(board) == true
+end
+if draw?(board) == true
   prints "Cat's Game!"
 end
 end
